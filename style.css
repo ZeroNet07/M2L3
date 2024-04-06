@@ -1,8 +1,24 @@
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1:hover { animation: color-change 3s infinite; }
+
 body {
     font-family: Arial,  sans-serif; /* keluarga font */
     font-size: 11px; /* Ukuran font utama pada tag <p></p> */
-    background-color: #f0f0f0; /* Warna latar belakang laman web */
-    color: #333333; /* Warna teks */ 
+    background-color: #333333; /* Warna latar belakang laman web */
+    color: #ffffff; /* Warna teks */ 
 }
 h1 {
     color: #00a800; /* Warna tajuk (header)*/
